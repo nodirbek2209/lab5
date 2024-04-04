@@ -1,11 +1,12 @@
 #include <iostream>
 #include <iomanip>
+#include <cmath>
 using namespace std;
 int sum2(int a){
     if (a==1){
         return 3;
     }else{
-        return sum2(a-1)*sum2(a-1)+3;
+        return pow(sum2(a-1),2)+3;
     }
 }
 int main() {
