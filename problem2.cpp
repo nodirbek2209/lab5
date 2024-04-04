@@ -3,7 +3,7 @@
 #include <cmath>
 #include "cstdint"
 using namespace std;
-int sum2(int64_t a){
+int64_t sum2(int64_t a){
     if (a==1){
         return 3;
     }else{
