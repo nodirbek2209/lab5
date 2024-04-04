@@ -18,9 +18,11 @@ string substring(const string& str, int i, int j) {
 
 int main() {
     string s;
-    cin>>s;
+    
+    getline(cin, s);
     int a,b;
     cin>>a>>b;
+    
     cout<<substring(s,a,b);
     return 0;
 }
